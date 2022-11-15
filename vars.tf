@@ -9,37 +9,9 @@ variable "org" {
   description = "your org"
 }
 variable "vpc_vars" {
-  default = {
-    region  = "us-east-1"
-    az      = "us-east-1a"
-    cidr    = "10.1.0.0/16"
-    subnet  = "10.1.1.0/24"
-    rt_cidr = "0.0.0.0/0"
-  }
 }
 variable "instances" {
-  default = {
-    dev_server = {
-      instance_type = "t2.small"
-      ami           = "ami-06640050dc3f556bb"
-      key_name      = "gdykeman"
-    }
-    test_server = {
-      instance_type = "t2.micro"
-      ami           = "ami-08c40ec9ead489470"
-      key_name      = "gdykeman"
-    }
-    prod_server = {
-      instance_type = "t2.small"
-      ami           = "ami-09d3b3274b6c5d4aa"
-      key_name      = "gdykeman"
-    }
-    config_server = {
-      instance_type = "t2.medium"
-      ami           = "ami-06640050dc3f556bb"
-      key_name      = "gdykeman"
-    }
-  }
+  description = "This instances to include."
 }
 
 variable "amis" {
