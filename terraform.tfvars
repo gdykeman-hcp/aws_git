@@ -11,7 +11,7 @@ vpc_vars = {
 instances = {
   dev_server = {
     ami           = "ami-06640050dc3f556bb"
-    instance_type = "t2.large"
+    instance_type = "t2.small"
     key_name      = "gdykeman"
   }
 }
