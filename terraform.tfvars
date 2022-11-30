@@ -8,7 +8,7 @@ vpc_vars = {
   subnet  = "10.2.2.0/24"
 }
 
-# instances = {
+instances = {
 #   dev_server1 = {
 #     ami           = "ami-08d616b7fbe4bb9d0"
 #     instance_type = "t2.small"
@@ -24,4 +24,4 @@ vpc_vars = {
 #     instance_type = "t2.small"
 #     key_name      = "gdykeman"
 #   }
-# }
+}
