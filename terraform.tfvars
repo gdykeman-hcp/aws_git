@@ -10,7 +10,7 @@ vpc_vars = {
 
 instances = {
   dev_server1 = {
-    ami           = var.ami_gitlab
+    ami           = var.ami_hashi
     instance_type = "t2.small"
     key_name      = "gdykeman"
   }
