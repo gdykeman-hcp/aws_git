@@ -30,6 +30,8 @@ variable "ami_gitlab" {
 
 variable "ami_hashi" {
   description = "gitlab ami for deployment"
+  type = "string"
+  default = "ami-08d616b7fbe4bb9d0"
 }
 
 variable "rules" {
