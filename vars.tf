@@ -10,6 +10,7 @@ variable "org" {
 }
 variable "vpc_vars" {
 }
+
 variable "instances" {
   description = "This instances to include."
 }
