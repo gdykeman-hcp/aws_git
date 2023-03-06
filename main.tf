@@ -51,7 +51,7 @@ resource "aws_route_table_association" "public_rt_association" {
 }
 
 data "aws_ami" "rhel_ami" {
-  most_recent      = true
+  most_recent = true
 
   filter {
     name   = "architecture"
