@@ -1,1 +1,1 @@
-# Terraform Workshop Content
+# Terraform provisioned development stack for AWS
