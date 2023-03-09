@@ -24,14 +24,6 @@ variable "amis" {
   }
 }
 
-variable "ami_gitlab" {
-  description = "gitlab ami for deployment"
-}
-
-variable "ami_hashi" {
-  description = "gitlab ami for deployment"
-}
-
 variable "rules" {
   type = list(object({
     from_port   = number
